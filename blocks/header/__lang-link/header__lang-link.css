@@ -1,0 +1,22 @@
+.header__lang-link {
+	color: #fff;
+	text-decoration: none;
+	font-size: 24px;
+	line-height: 28px;
+	margin-top: 18px;
+}
+
+.header__lang-link:hover {
+	text-decoration: underline;
+}
+
+.header__lang-link:first-of-type {
+	position: absolute;
+	right: 47px;
+}
+
+@media screen and (max-width: 700px) {
+	.header__lang-link {
+		margin-top: 14px;
+	}
+}

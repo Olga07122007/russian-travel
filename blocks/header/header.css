@@ -1,0 +1,14 @@
+.header {
+	min-height: 52px;
+	width: 90%;
+	margin: 28px auto 48px;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+
+@media screen and (min-width: 1280px) {
+ .header {
+		margin-bottom: 56px;
+	}
+}

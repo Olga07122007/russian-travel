@@ -1,0 +1,25 @@
+.cover {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	width: 100%;
+	margin: 92px auto 0;
+}
+
+@media screen and (min-width: 1280px) {
+	.cover {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.cover {
+		margin-top: 92px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.cover {
+		margin-top: 66px;
+	}
+}

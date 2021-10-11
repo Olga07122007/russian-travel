@@ -1,0 +1,22 @@
+.footer {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	width: 90%;
+	margin: 92px auto 24px;
+	position: relative;
+}
+
+@media screen and (max-width: 900px) {
+	.footer {
+		margin: 88px auto 24px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.footer {
+		flex-direction: column;
+		width: 58%;
+		margin: 64px 0 24px 5%;
+	}
+}
