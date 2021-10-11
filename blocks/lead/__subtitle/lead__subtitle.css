@@ -10,13 +10,13 @@
 
 @media screen and (min-width: 1280px) {
 	.lead__subtitle {
-		width: 65%
+		width: 65%;
 	}
 }
 
 @media screen and (max-width: 900px) {
 	.lead__subtitle {
-		width: 83%
+		width: 83%;
 	}
 }
 
