@@ -1,8 +1,15 @@
 .header__lang-link {
-	margin: 18px 0 0 0;
+	margin: 18px 18px 0 0;
 	padding: 0;
+	text-decoration: none;
+	color: #fff;
+	transition: opacity .3s ease-in;
 }
 
-.header__lang-link:first-of-type {
-	margin-right: 18px;
+.header__lang-link:last-of-type {
+	margin-right: 0;
+}
+
+.header__lang-link:hover {
+	opacity: 0.8;
 }

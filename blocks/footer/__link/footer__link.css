@@ -5,10 +5,21 @@
 	text-decoration: none;
 	padding: 0;
 	margin: 0 18px 0 0;
+	transition: opacity .3s ease-in;
 }
 
 .footer__link:last-of-type {
 	margin: 0;
+}
+
+.footer__link:hover {
+	opacity: 0.8;
+}
+
+@media screen and (max-width: 900px) {
+	.footer__link {
+		margin-right: 19px;
+	}
 }
 
 @media screen and (max-width: 700px) {

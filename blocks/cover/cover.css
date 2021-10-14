@@ -8,18 +8,19 @@
 
 @media screen and (min-width: 1280px) {
 	.cover {
-		width: 90%;
+		width: 92%;
+		margin-top: 87px;
 	}
 }
 
 @media screen and (max-width: 900px) {
 	.cover {
-		margin-top: 92px;
+		margin-top: 87px;
 	}
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 550px) {
 	.cover {
-		margin-top: 66px;
+		margin-top: 51px;
 	}
 }
