@@ -33,7 +33,7 @@
 	.place {
 		grid-template-columns: 100%;
 		row-gap: 32px;
-		margin-bottom: 67px;
+		margin-bottom: 51px;
 	}
 
 }
